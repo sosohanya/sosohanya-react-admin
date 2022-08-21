@@ -1,9 +1,9 @@
 import "./assets/css/reset.css";
 import "./assets/css/common.css";
-import SampleLayout from "./samples/SampleLayout";
+import RoutesMap from "./RoutesMap";
 
 function App() {
-    return <SampleLayout />;
+    return <RoutesMap />;
 }
 
 export default App;
