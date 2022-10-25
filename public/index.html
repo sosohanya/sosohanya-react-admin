@@ -29,7 +29,10 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <div class="modal-dimmed" style="z-index: 1000"></div> <!-- dimmed 영역이 root 바깥에 있다. -->
+    <div id="modal-dimmed"> <!-- dimmed 영역이 root 바깥에 있다.-->
+      <!-- <div class="modal-dimmed" style="z-index: 1000"></div> // createPortal 사용하여 이 내용이 들어가도록 할 것이다.  -->
+    </div>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
